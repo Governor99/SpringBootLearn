@@ -1,0 +1,50 @@
+spring:
+  jackson:
+    serialization:
+      FAIL_ON_EMPTY_BEANS: false
+  banner:
+    image:
+      bitdepth: 4
+  cache:
+    type: redis
+    redis:
+      time-to-live: 11000
+
+
+person:
+  #单个字面量
+  userName: zhangsan
+  boss: false
+  birth: 2023/3/26
+  age: 18
+  #一个pet实体类
+  pet:
+    name: tomcat
+    weight: 23.4
+  #一个string数组
+  interests:
+    - 唱
+    - 跳
+    - rap
+    - 篮球
+  #一个List集合
+  animal: [阿猫,阿狗]
+  #一个map集合
+  score: {english: 80,math: 90}
+  #一个set集合
+  salarys:
+    - 9999.98
+    - 9999.99
+  #一个泛型为String和一个泛型为pet类的List的map
+  allPets:
+    sick:
+      - {name: tom,weight: 99.99}
+      - name: cat
+        weight: 88.88
+      - name: pag
+        weight: 77.77
+    health:
+      - {name: 阿花,weight: 199.99}
+      - {name: 来福,weight: 199.99}
+
+

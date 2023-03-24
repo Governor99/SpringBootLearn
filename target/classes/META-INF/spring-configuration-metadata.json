@@ -1,0 +1,77 @@
+{
+  "groups": [
+    {
+      "name": "mycar",
+      "type": "com.atguigu.boot.Bean.Car",
+      "sourceType": "com.atguigu.boot.Bean.Car"
+    },
+    {
+      "name": "person",
+      "type": "com.atguigu.boot.Bean.Person",
+      "sourceType": "com.atguigu.boot.Bean.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mycar.brand",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.boot.Bean.Car"
+    },
+    {
+      "name": "mycar.price",
+      "type": "java.lang.Integer",
+      "sourceType": "com.atguigu.boot.Bean.Car"
+    },
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.atguigu.boot.Bean.Person"
+    },
+    {
+      "name": "person.all-pets",
+      "type": "java.util.Map<java.lang.String,java.util.List<com.atguigu.boot.Bean.Pet>>",
+      "sourceType": "com.atguigu.boot.Bean.Person"
+    },
+    {
+      "name": "person.animal",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.atguigu.boot.Bean.Person"
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.atguigu.boot.Bean.Person"
+    },
+    {
+      "name": "person.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.atguigu.boot.Bean.Person"
+    },
+    {
+      "name": "person.interests",
+      "type": "java.lang.String[]",
+      "sourceType": "com.atguigu.boot.Bean.Person"
+    },
+    {
+      "name": "person.pet",
+      "type": "com.atguigu.boot.Bean.Pet",
+      "sourceType": "com.atguigu.boot.Bean.Person"
+    },
+    {
+      "name": "person.salarys",
+      "type": "java.util.Set<java.lang.Double>",
+      "sourceType": "com.atguigu.boot.Bean.Person"
+    },
+    {
+      "name": "person.score",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.atguigu.boot.Bean.Person"
+    },
+    {
+      "name": "person.user-name",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.boot.Bean.Person"
+    }
+  ],
+  "hints": []
+}
